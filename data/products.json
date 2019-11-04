@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"mi7",
+        "price":50,
+        "quantity":10
+    },
+    {
+        "id":2,
+        "name":"Orange",
+        "price":60,
+        "quantity":10
+    },
+    {
+        "id":3,
+        "name":"banana",
+        "price":70,
+        "quantity":10
+    },
+    {
+        "id":4,
+        "name":"grapes",
+        "price":70,
+        "quantity":10
+    }
+]

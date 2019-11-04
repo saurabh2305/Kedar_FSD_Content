@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   <form action="index.aspx" method="POST" >
+       <div>
+           <label for="firstname">First Name</label>
+           <input type="firstname" name="firstname" placeholder="first name"/>
+       </div>
+       <div>
+           <label for="age">Age</label>
+           <input type="number" name="age"></input>
+       </div>
+       <div>
+       <label for="email">Email</label>
+       <input type="email" name="email" placeholder="email here"/>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required />
+    </div>
+    <div>
+        <label for="time"> Preffered time to call</label>
+        From<input type="time" name="fromtime">
+        To <input type="time" name="totime" />
+    </div>
+    <div>
+        <button type="submit" name="save">Save Finish</button>
+        <button type="submit" name="savesdraft" formaction="draft.php"> save as draft</button>
+    </div>
+
+   </form> 
+</body>
+</html>
+    <head>
+        
+        <title>Document</title>
+    </head>
+</html>
